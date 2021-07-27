@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{A55FEE85-46DB-458B-8CDC-535A624AB407}|Default">
+  <MonoDevelop.Ide.ItemProperties.pro4Testing PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="pro4Testing/Views/Home/confirm.cshtml">
+    <Files>
+      <File FileName="pro4Testing/Controllers/HomeController.cs" Line="47" Column="37" />
+      <File FileName="pro4Testing/Views/Home/Index.cshtml" Line="34" Column="63" />
+      <File FileName="pro4Testing/Views/Shared/_Layout.cshtml" />
+      <File FileName="pro4Testing/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="pro4Testing/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="pro4Testing/Views/Shared/Error.cshtml" />
+      <File FileName="pro4Testing/Views/_ViewImports.cshtml" />
+      <File FileName="pro4Testing/Views/_ViewStart.cshtml" />
+      <File FileName="pro4Testing/wwwroot/css/site.css" Line="64" Column="4" />
+      <File FileName="pro4Testing/Views/Home/checkout.cshtml" Line="23" Column="16" />
+      <File FileName="pro4Testing/Models/ErrorViewModel.cs" Line="7" Column="8" />
+      <File FileName="pro4Testing/Models/Pizza.cs" Line="4" Column="23" />
+      <File FileName="pro4Testing/Views/Home/confirm.cshtml" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pro4Testing" expanded="True">
+            <Node name="pro4Testing" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

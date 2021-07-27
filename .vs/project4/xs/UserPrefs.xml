@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{33193BC8-E35B-42D7-AF8F-6446A230A908}|Default">
+  <MonoDevelop.Ide.ItemProperties.project4 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="project4/TestFeatureSteps.cs">
+    <Files>
+      <File FileName="project4/UnitTest1.cs" Line="27" Column="34" />
+      <File FileName="BDDimplimntation/UnitTest1.cs" />
+      <File FileName="BDDimplimntation/TestFeature.feature" />
+      <File FileName="BDDimplimntation/TestFeature.feature.cs" />
+      <File FileName="project4/TestFeatureSteps.cs" Line="15" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="project4" expanded="True">
+            <Node name="pro4Testing" expanded="True" />
+            <Node name="project4" expanded="True">
+              <Node name="TestFeatureSteps.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="project4" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BDDimplimntation FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/shahadsh/Projects/project4/project4/UnitTest1.cs" relfile="project4/UnitTest1.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

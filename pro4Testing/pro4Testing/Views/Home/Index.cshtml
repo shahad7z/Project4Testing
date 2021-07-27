@@ -1,0 +1,95 @@
+﻿
+@model pro4Testing.Models.Pizza
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+}
+
+<div class="text-center">
+    <h1 class="display-4" style="color:brown; font-size:large;">Welcome</h1>
+    <label style="color:brown; font-size:large;">pizza selection </label>
+</div>
+
+
+@*@using (Html.BeginForm("Greetings", "Home", FormMethod.Post))*@
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body style="background-image: url(../pizza3.jpg); ">
+    @using (Html.BeginForm("checkout", "Home", FormMethod.Post))
+    {
+
+    <div class="row">
+        <h1>Please select your favorite Pizza:</h1>
+        <br><br>
+         <div class="col-sm-9">Pizza:(Cheese,Pepperoni,Margherita,Buffalo) </div>
+        <div class="col-sm-9">@Html.TextBoxFor(c => c.Piizza)</div>
+    </div> <br><br>
+
+        <div class="row">
+            <div class="col-sm-9">Size:( Small, Medium, Large)</div>
+            <div class="col-sm-9">@Html.TextBoxFor(c => c.size)</div>
+        </div> <br />
+
+
+        <div class="row">
+            <div class="col-sm-12 text-left">
+                <input class="btn btn-success" type="submit" value="submit" />
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        @*<label for="Choose1">Choose your favorite Pizza:</label>
+            <select id="Piizza" name="Piizza">
+                <option value="CheesePizza">Cheese Pizza</option>
+                <option value="PepperoniPizza">Pepperoni Pizza</option>
+                <option value="MargheritaPizza">Margherita Pizza</option>
+                <option value="BuffaloPizza">Buffalo Pizza</option>
+            </select>
+
+            <br>
+
+
+            <label for="Choose2">Please select size:</label>
+            <select id="size" name="size">
+                <option value="small">small</option>
+                <option value="medium">medium</option>
+                <option value="Large">Large</option>
+            </select>
+            <br>
+            <input type="submit">
+
+
+
+                  <h1>Please select your favorite Pizza:</h1>
+                <label for="cheese">cheese</label><br>
+                <label for="BBQ">BBQ</label><br>
+                        <label for="MEAT">MEAT</label>
+                        <label for="Veggies">Veggies</label>
+
+                    <br>
+
+                    <h1>Please select size:</h1>
+                    <label for="small"> small</label><br>
+                    <label for="medium">medium</label><br>
+                    <label for="Large">Large</label><br><br>
+
+
+
+
+
+        *@
+    }
+</body>
+</html>
